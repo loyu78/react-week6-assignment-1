@@ -1,17 +1,19 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 export default function HomePage() {
     return ( <
         div >
         <
-        h1 > Home < /h1> <
+        h1 > Home < /h1>  <
         ul >
         <
-        li > < a href = '/about' > About < /a></li >
+        li > < Link to = '/about' > About < /Link></li >
         <
-        li > < a href = '/restaurants' > Restauratns < /a></li >
+        li > < Link to = '/restaurants' > Restauratns < /Link></li >
         <
-        /ul> <
+        /ul>  <
         /div>
     )
 }
